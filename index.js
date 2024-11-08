@@ -64,10 +64,10 @@ async function getAllData() {
   }
 }
 
-const rule = new schedule.RecurrenceRule();
-rule.hour = 5;
-rule.minute = 0;
-rule.tz = "Asia/Tehran";
+// const rule = new schedule.RecurrenceRule();
+// rule.hour = 5;
+// rule.minute = 0;
+// rule.tz = "Asia/Tehran";
 
 console.log("Started waiting...");
 getAllData();
